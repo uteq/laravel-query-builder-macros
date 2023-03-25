@@ -1,5 +1,5 @@
 {
-  "name": "uteq/query-builder-macros",
+  "name": "uteq/laravel-query-builder-macros",
   "description": "A set of common Laravel Uteq helpers and macros",
   "keywords": [
     "uteq",
