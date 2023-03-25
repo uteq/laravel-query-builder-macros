@@ -23,6 +23,7 @@ class QueryBuilderMacroServiceProvider extends ServiceProvider
             'rawQuery' => Macros\RawQuery::class,
             'ddQuery' => Macros\DdQuery::class,
             'dumpQuery' => Macros\DumpQuery::class,
+            'rayQuery' => Macros\RayQuery::class,
         ];
     }
 }

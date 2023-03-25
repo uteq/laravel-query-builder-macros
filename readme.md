@@ -38,3 +38,13 @@ Account::query()
 // dump() of `select * from "account" where "email" = 'john'`
 //  the execution of the script will continue
 ```
+
+
+### `rayQuery`
+```php
+Account::query()
+    ->where('email', 'john')
+    ->rayQuery();
+// ray() of `select * from "account" where "email" = 'john'`
+//  the execution of the script will continue
+```
