@@ -17,6 +17,7 @@ composer require uteq/laravel-support
 ```php
 $rawQuery = Account::query()
     ->where('email', 'john')
+    ->getQuery()
     ->rawQuery();
 // return `select * from "account" where "email" = 'john'` 
 ```
