@@ -6,6 +6,6 @@ class DumpQuery
 {
     public function __invoke(): \Closure
     {
-        return fn() => dump($this->rawQuery());
+        return fn () => dump($this->rawQuery());
     }
 }

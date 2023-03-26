@@ -6,6 +6,6 @@ class RayQuery
 {
     public function __invoke(): \Closure
     {
-        return fn() => ray($this->rawQuery());
+        return fn () => ray($this->rawQuery());
     }
 }
