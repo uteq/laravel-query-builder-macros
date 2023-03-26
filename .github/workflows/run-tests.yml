@@ -19,10 +19,9 @@ jobs:
                 include:
                     -   testbench: 8.*
                         laravel: 10.*
+                        carbon: ^2.63
                     -   testbench: 7.*
                         laravel: 9.*
-                    -   testbench: ^6.23
-                        laravel: 8.*
                 exclude:
                     -   laravel: 10.*
                         php: 8.0
