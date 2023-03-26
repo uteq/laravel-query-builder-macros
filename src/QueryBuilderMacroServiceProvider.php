@@ -4,7 +4,6 @@ namespace Uteq\QueryBuilderMacros;
 
 use Illuminate\Database\Query\Builder;
 use Illuminate\Support\ServiceProvider;
-use Uteq\QueryBuilderMacros\Macros;
 
 class QueryBuilderMacroServiceProvider extends ServiceProvider
 {

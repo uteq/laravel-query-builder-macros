@@ -6,6 +6,6 @@ class DdQuery
 {
     public function __invoke(): \Closure
     {
-        return fn() => dd($this->rawQuery());
+        return fn () => dd($this->rawQuery());
     }
 }

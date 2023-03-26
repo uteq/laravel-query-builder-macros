@@ -11,7 +11,7 @@
 |
 */
 
- uses(Uteq\QueryBuilderMacros\Tests\TestCase::class)->in(__DIR__);
+uses(Uteq\QueryBuilderMacros\Tests\TestCase::class)->in(__DIR__);
 
 /*
 |--------------------------------------------------------------------------

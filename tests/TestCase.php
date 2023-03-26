@@ -2,7 +2,6 @@
 
 namespace Uteq\QueryBuilderMacros\Tests;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
 use Uteq\QueryBuilderMacros\QueryBuilderMacroServiceProvider;
 
