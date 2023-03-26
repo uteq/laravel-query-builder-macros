@@ -1,6 +1,6 @@
 # A set of useful macros for the query builder
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/uteq/laravel-query-builder-macros.svg?style=flat-square)](https://packagist.org/packages/uteq/laravel-query-builder-macros)
-![Run tests](https://github.com/uteq/laravel-query-builder-macros/workflows/Run%20tests/badge.svg)
+![Run tests](https://github.com/uteq/laravel-query-builder-macros/workflows/run-tests/badge.svg)
 ![Check & fix styling](https://github.com/uteq/laravel-query-builder-macros/workflows/Check%20&%20fix%20styling/badge.svg)
 [![Total Downloads](https://img.shields.io/packagist/dt/uteq/laravel-query-builder-macros.svg?style=flat-square)](https://packagist.org/packages/uteq/laravel-query-builder-macros)
 
