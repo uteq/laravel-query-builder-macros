@@ -1,6 +1,6 @@
 # A set of useful macros for the query builder
 Adds useful functionality to the Laravel Query Builder
-`Illuminate\Database\Query\Builder`
+`Illuminate\Database\Query\Builder`.
 
 ## Installation
 
@@ -48,3 +48,27 @@ Account::query()
 // ray() of `select * from "account" where "email" = 'john'`
 //  the execution of the script will continue
 ```
+
+## Inspiration by
+Building this package I got inspired by the following:
+- https://stackoverflow.com/a/53337416
+- http://github.com/spatie/laravel-collection-macros
+- https://github.com/spatie/package-skeleton-laravel
+
+## Credits
+- [Nathan Jansen](https://github.com/nathanjansen)
+- [Leo Flapper](https://github.com/leoflapper)
+- [All Contributors](../../contributors)
+
+## Testing
+``` bash
+$ composer test
+```
+
+## About Uteq
+We are a web development agency based in the Netherlands. 
+We design and build web applications for our clients. 
+We are specialized in Laravel with Livewire.
+
+## License
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
